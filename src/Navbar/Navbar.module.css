@@ -1,0 +1,92 @@
+.navbar {
+  width: 100%;
+  border-bottom: 1px solid #C8BFC7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+
+.inner-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 5px 10px;
+  max-width: 800px;
+}
+
+
+
+
+.logo {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0
+}
+
+  .players-icon {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logo-pin { 
+    font-size: 45px;
+  }
+
+  .logo-ball-in-pin {
+    font-size: 12px;
+    color: #FDFFFC;
+    position: absolute;
+    top: 23.5%
+  }
+  
+
+  .logo h1 {
+    font-size: 35px;
+    margin: 0;
+    margin-left: 10px
+  }
+  
+  .nav-links-wrapper {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    margin-right: 10px
+  }
+  
+
+.hamburger {
+    cursor: pointer;
+    
+} 
+
+
+.hamburger div {
+    width: 35px;
+    height: 5px;
+    background-color:white;
+    margin: 5px 
+}
+
+.nav-links-wrapper {
+  display: none
+}
+
+.sign-out-link {
+  display: none;
+}
+
+.no-auth-nav-links-wrapper {
+  display: none;
+}

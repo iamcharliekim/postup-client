@@ -1,0 +1,32 @@
+.App {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    min-height: 100vh;
+    background-color: black;
+    position: relative;
+}
+
+.nav-links-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+.nav-link {
+    padding: 20px 0;
+    background-color: black;
+        width: 100%;
+    text-decoration: none;
+    font-size: 30px;
+    border-bottom: 1px solid #FDFFFC;
+    color: white;
+    background-color: black
+}
+
